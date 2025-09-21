@@ -1,5 +1,8 @@
 /* Place CSS styles here */
 
+* {
+
+}
 
 h1 {
   text-align: center;
@@ -10,8 +13,25 @@ h1 {
   border: 2px solid black;
 }
 
-.LenzLootr {
-  border: 3px;
+a {
+  color: grey;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+  border: 1px solid rgb(107, 154, 190);
+}
+
+.footer {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: black;
+  background-color: white;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
 }
 
 
