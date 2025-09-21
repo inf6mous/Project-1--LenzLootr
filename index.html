@@ -1,46 +1,92 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Responsive Layouts</title>
-  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <title>Atlas Photography</title>
+  <meta name="description" content="Photography portfolio showcasing creative works">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
   <link rel="icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
-
+  <meta name="theme-color" content="#000">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Slabo+13px&family=Ultra&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Place your site's HTML here -->
+  <header>
+    <h1 id="top">LenzLootr
+    </h1>
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <h1>LenzLootr</h1>
-  
+  <main>
+    <div class="wrapper">
+      
+      <!-- Hero Image -->
+      <div class="top-image">
+        <img src="./img/hero-photo.jpg" alt="Featured Photography">
+        <p class="caption">Capturing Stories Through the Lens</p>
+      </div>
 
-  <p>This text will display on your site! Jan 19</p>
+      <!-- Portfolio Section -->
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <ul class="photo-gallery">
+          <li>
+            <img src="./img/landscape1.jpg" alt="Landscape">
+            <p>Landscape</p>
+          </li>
+          <li>
+            <img src="./img/portrait1.jpg" alt="Portrait">
+            <p>Portrait</p>
+          </li>
+          <li>
+            <img src="./img/street1.jpg" alt="Street Photography">
+            <p>Street</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2>About the Photographer</h2>
+        <div class="about-section">
+          <div>
+            <img src="./img/photographer.jpg" alt="Photographer portrait">
+          </div>
+          <div>
+            <p>Hello! I’m Atlas, a passionate photographer who loves to capture authentic moments, vibrant landscapes, and unique portraits. My work blends technical precision with a creative eye to tell stories through images.</p>
+            <p>From bustling city streets to serene natural settings, I aim to showcase beauty wherever it’s found.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="links-section">
+        <h2>Contact</h2>
+        <p>Interested in working together? Reach out below:</p>
+        <p>
+          <a href="mailto:atlasphoto@email.com">atlasphoto@email.com</a> <br>
+          <a href="tel:555-555-5555">555-555-5555</a>
+        </p>
+      </section>
+
+      <a href="#top">Back to Top</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Atlas Photography © 2025
+  </footer>
+
   <script src="js/main.js"></script>
-
-  <img src="./img/giz2.jpg" alt="Gizmo pic">
-  <img src="./img/kirby4.jpeg" alt="Kirby pic">
-
-  <div class="">
-
-  </div>
 </body>
-
 </html>
